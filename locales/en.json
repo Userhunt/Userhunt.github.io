@@ -1,0 +1,50 @@
+{
+    "description.recipe": "Custom recipe generator",
+
+    "more": "More",
+    "2_spaces": "2 Spaces",
+    "4_spaces": "4 Spaces",
+    "tabs": "Tabs",
+
+    "share": "Share",
+    "copy": "Copy",
+
+
+    "theme": "Theme",
+    "theme.dark": "Dark",
+    "theme.light": "Light",
+    "credit": "on GitHub",
+
+
+    "help.name_space": "Name space of datapack",
+    "help.reward.loot_table": "В результате крафта игрок получит таблицу лута",
+    "help.reward.function": "В результате крафта от имени игрока выполнится функция",
+    "help.path": "Путь к таблице/функции не учитывая пространство имен, можно указывать другое простронство имен",
+    "help.scoreboard": "скорборд используемый в расчетах",
+    "help.type.item": "Возможно использование тега предметов, к примеру #logs",
+    "help.mame": "Вы можете задать имя предмету, в nbt его указывать не обязательно",
+    "help.translate": "Is name translatable?",
+
+    
+    "name_space": "Name space",
+    "reward": "Type of result",
+    "reward.function": "function",
+    "reward.loot_table": "loot table",
+    "path": "Path",
+    "scoreboard": "Scoreboard",
+    "items_add": "Add Item",
+    "generate": "get archive",
+
+
+    "item_remove": "Remove Item",
+    "type": "Type",
+    "type.item": "Item",
+    "type.tag": "Item Tag",
+    "id": "ID",
+    "count": "Count",
+    "nbt": "NBT",
+    "name": "Custom Item Name",
+    "translate": "Translate",
+    "false": "false",
+    "true": "True"
+}

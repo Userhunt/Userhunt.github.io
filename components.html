@@ -1,0 +1,54 @@
+<div id="components" class="d-none">
+    <div class="input-group mt-3" data-type="string">
+        <div class="input-group-prepend">
+            <span class="input-group-text" data-name></span>
+        </div>
+        <input type="text" class="form-control rounded-right" onchange="updateField(this)" onfocus="this.select()">
+    </div>
+    <div class="input-group mt-3" data-type="enum">
+        <div class="input-group-prepend">
+            <span class="input-group-text" data-name></span>
+        </div>
+        <select class="form-control rounded-right" onchange="updateField(this)">
+        </select>
+    </div>
+    <div class="input-group mt-3" data-type="boolean">
+        <div class="input-group-prepend">
+            <span class="input-group-text" data-name></span>
+        </div>
+        <div class="btn-group">
+            <button type="button" value="false" class="btn btn-secondary rounded-0" onclick="updateField(this)"
+                data-i18n="false"></button>
+            <button type="button" value="true" class="btn btn-secondary" onclick="updateField(this)"
+                data-i18n="true"></button>
+        </div>
+    </div>
+    <div class="input-group mt-3" data-type="json">
+        <div class="input-group-prepend">
+            <span class="input-group-text" data-name></span>
+        </div>
+        <textarea type="text" class="form-control code" onchange="updateField(this)" onfocus="this.select()"
+            style="height: 38px"></textarea>
+    </div>
+    <div class="input-group mt-3" data-type="nbt">
+        <div class="input-group-prepend">
+            <span class="input-group-text" data-name></span>
+        </div>
+        <textarea type="text" class="form-control code" onchange="updateField(this)" onfocus="this.select()"
+            style="height: 38px"></textarea>
+    </div>
+
+
+    <div data-type="map">
+        <div class="input-group mt-3">
+
+            <div class="input-group-append">
+                <button class="btn btn-dark rounded-right" type="button" onclick="addToMap(this)" data-name="2"></button>
+            </div>
+
+            <div class="input-group-append">
+                <button class="btn btn-dark rounded-right" type="button" onclick="generate()" data-name="3"></button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,248 @@
+
+.help-tooltip {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1;
+    margin: auto;
+    background-color: #E9ECEF;
+    border-width: 1px;
+    border-color: #CED4DA;
+}
+
+.card.bg-info {
+  background-color: #91cdd6 !important;
+  color: black !important;
+}
+
+.card.bg-success {
+  background-color: #91d8a1 !important;
+  color: black !important;
+}
+
+.card.bg-secondary {
+  background-color: #adb5bd !important;
+  color: black !important;
+}
+
+.card.bg-dark {
+  background-color: #646b72 !important;
+  color: white !important;
+}
+
+.card.child {
+  background-color: #eee !important;
+}
+
+.card.bg-info .card.bg-info {
+  background-color: #7cb6bf !important;
+}
+
+.card.bg-dark .card.bg-dark {
+  background-color: #565b60 !important;
+}
+
+.card.bg-dark .card.bg-dark .card.bg-dark {
+  background-color: #4b4f54 !important;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dae0e5 !important;
+  color: black;
+}
+
+.btn-dark {
+  background-color: white !important;
+  color: #149633;
+  border-color: #149633 !important;
+}
+
+.btn-dark:hover {
+  color: black;
+}
+
+.dropdown-item {
+  cursor: pointer;
+}
+
+.code {
+  font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+  tab-size: 4;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  -webkit-tab-size: 4;
+}
+
+textarea {
+  min-height: 37.6px;
+}
+
+textarea.invalid {
+  border-color: red !important;
+}
+
+textarea.invalid:focus {
+  box-shadow: 0 0 0 .2rem rgba(255,0,0,.25) !important;
+}
+
+.scrollable-menu {
+  height: auto;
+  max-height: 300px;
+  overflow-x: hidden;
+}
+
+#source {
+  white-space: pre;
+  overflow-wrap: normal;
+  overflow-x: scroll;
+  resize: both;
+}
+
+.card a {
+  color: #000 !important;
+}
+
+.card a:hover {
+  color: #333 !important;
+  text-decoration: none;
+}
+
+body[data-style="dark"] {
+  background-color: #222529;
+}
+
+body[data-style="dark"] #source {
+  background-color: #181a1d;
+  border-color: #646b72;
+  color: #ddd;
+}
+
+body[data-style="dark"] .form-control {
+  background-color: #343a40 !important;
+  color: #ddd;
+  border-color: #24282c;
+}
+
+body[data-style="dark"] .error-form-control {
+  background-color: #422424 !important;
+
+}
+
+body[data-style="dark"] .input-group-text {
+  background-color: #2d3236;
+  color: #fff;
+  border-color: #24282c;
+}
+
+body[data-style="dark"] .btn-outline-secondary {
+  background-color: #343a40 !important;
+  color: #ddd;
+  border-color: #24282c;
+}
+
+body[data-style="dark"] .btn-outline-dark {
+  filter: invert();
+}
+
+body[data-style="dark"] .custom-control-label {
+  color: #ddd;
+}
+
+body[data-style="dark"] .dropdown-menu {
+  background-color: #343a40;
+  color: #ddd;
+}
+
+body[data-style="dark"] .dropdown-item:hover {
+  background-color: #2d3236;
+}
+
+body[data-style="dark"] .card.bg-success {
+  background-color: #2f693e !important;
+  color: white !important;
+}
+
+body[data-style="dark"] .card.bg-light {
+  background-color: #32373c !important;
+  color: white !important;
+}
+
+body[data-style="dark"] .btn-light {
+  background-color: #282d31 !important;
+  color: white !important;
+  border-color: #282d31 !important;
+}
+
+body[data-style="dark"] .card.bg-secondary {
+  background-color: #707579 !important;
+  color: white !important;
+}
+
+body[data-style="dark"] .card.bg-info {
+  background-color: #2a707a !important;
+  color: black !important;
+}
+
+body[data-style="dark"] .card.bg-info .card.bg-info {
+  background-color: #3a929e !important;
+  color: black !important;
+}
+
+body[data-style="dark"] .btn-outline-danger {
+  background-color: #2d3236 !important;
+}
+
+body[data-style="dark"] .btn-dark {
+  background-color: #2d3236 !important;
+  color: #149633;
+  border-color: #149633;
+}
+
+body[data-style="dark"] .btn-dark:hover {
+  color: white;
+}
+
+body[data-style="dark"] .card.bg-dark {
+  background-color: #4b4f54 !important;
+  color: white !important;
+}
+
+body[data-style="dark"] .card.bg-dark .card.bg-dark {
+  background-color: #565b60 !important;
+}
+
+body[data-style="dark"] .card.bg-dark .card.bg-dark .card.bg-dark {
+  background-color: #646b72 !important;
+}
+
+body[data-style="dark"] .help-tooltip {
+  background-color: #2d3236;
+  color: #fff;
+  border-color: #24282c;
+}
+
+body[data-style="dark"] .card a {
+  color: #fff !important;
+}
+
+body[data-style="dark"] .card a:hover {
+  color: #ccc !important;
+}
+
+body[data-style="dark"] .alert-danger {
+  background-color: #6d2126;
+  border-color: #5e1b20;
+  color: #dfc4c7;
+}
+
+body[data-style="dark"] .alert-danger svg {
+  fill: #dfc4c7;
+}
+
+.alert-danger svg {
+  fill: #6d2126;
+  margin-right: 5px;
+}
