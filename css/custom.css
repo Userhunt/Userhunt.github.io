@@ -128,7 +128,10 @@ body[data-style="dark"] .form-control {
 
 body[data-style="dark"] .error-form-control {
   background-color: #422424 !important;
+}
 
+body[data-style="light"] .error-form-control {
+  background-color: #c49292 !important;
 }
 
 body[data-style="dark"] .input-group-text {
