@@ -5,7 +5,7 @@
     "fields": [
       {
         "id": "name_space",
-        "type": "string",
+        "type": "systemField",
         "translate": "name_space",
         "help": true
       },
@@ -23,7 +23,7 @@
       },
       {
         "id": "path",
-        "type": "string",
+        "type": "systemField",
         "translate": "path",
         "help": true
       },
