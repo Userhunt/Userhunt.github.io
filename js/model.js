@@ -335,8 +335,9 @@ function updateField(el) {
   }
 
   if (type === 'systemField') {
-    if (/[а-яА-Я]/.test(value)) {
-      value = value.replace(/[а-яА-Я]/, '')
+    let lengthOfValue = value.length
+    for (let i = 0; i< lengthOfValue; i++) {
+      value = value.replace(/[а-яА-Я]/, '').replace(/[а-яА-Я]/, '')
     }
   } else if (type === 'int') {
     value = parseInt(value);
